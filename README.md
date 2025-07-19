@@ -102,7 +102,7 @@ mindscope/
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/mindscope.git
+git clone https://github.com/Ankit-Anand123/mindscope.git
 cd mindscope
 
 # Create conda environment
