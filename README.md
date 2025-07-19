@@ -403,15 +403,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 🙏 Acknowledgments
-
-- **Hugging Face** for the transformers library
-- **Streamlit** for the amazing web app framework
-- **Mental health research community** for datasets and benchmarks
-- **Open source contributors** who made this project possible
-
----
-
 ## ⚠️ Disclaimer
 
 **Important**: MindScope is designed for educational and research purposes only. It should not be used as a substitute for professional mental health diagnosis, treatment, or advice. If you or someone you know is experiencing mental health concerns, please seek help from qualified healthcare providers.
