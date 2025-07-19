@@ -1,0 +1,314 @@
+# MindScope Project .gitignore
+# ============================
+
+# Python
+# -------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+# -------------------
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+mindscope/
+.conda/
+
+# Jupyter Notebooks
+# ----------------
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+profile_default/
+ipython_config.py
+
+# PyTorch & ML Models
+# ------------------
+*.pth
+*.pt
+*.bin
+*.onnx
+*.pb
+*.tflite
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.joblib
+
+# Large Model Files (consider using Git LFS)
+# -----------------------------------------
+version1_survey/models/saved_models/*.pkl
+version1_survey/models/optimized/*.pkl
+version2_text/models/*.bin
+version2_text/models/pytorch_model.bin
+version2_text/models/*.safetensors
+
+# Datasets & Data Files
+# --------------------
+data/raw/*.csv
+data/text_data/raw/*.csv
+data/survey_data/raw/*.csv
+data/processed/*.csv
+data/text_data/processed/*.csv
+data/survey_data/processed/*.csv
+*.tsv
+*.xlsx
+*.json
+*.parquet
+
+# Large Data Files
+data/**/*.zip
+data/**/*.tar.gz
+data/**/*.7z
+
+# Logs & Outputs
+# --------------
+*.log
+logs/
+wandb/
+tensorboard_logs/
+mlruns/
+.mlflow/
+
+# Results & Figures
+# ----------------
+results/figures/*.png
+results/figures/*.jpg
+results/figures/*.pdf
+results/metrics/*.csv
+results/reports/*.html
+version1_survey/results/figures/*.png
+version2_text/results/figures/*.png
+
+# Streamlit
+# ---------
+.streamlit/
+*.streamlit/
+
+# IDE & Editors
+# -------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Environment Variables
+# -------------------
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# API Keys & Secrets
+# -----------------
+**/secrets.json
+**/config/secrets.yaml
+**/config/api_keys.json
+reddit_credentials.json
+openai_api_key.txt
+
+# Temporary Files
+# --------------
+*.tmp
+*.temp
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Documentation Build
+# ------------------
+docs/_build/
+site/
+
+# Mac & Windows
+# ------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Backup Files
+# -----------
+*.bak
+*.backup
+*.old
+*~
+
+# Compressed Files
+# ---------------
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Database Files
+# -------------
+*.db
+*.sqlite
+*.sqlite3
+
+# Configuration Files (if they contain sensitive info)
+# --------------------------------------------------
+config/local_config.yaml
+config/production_config.yaml
+
+# Reddit API Credentials
+# ---------------------
+praw.ini
+reddit_config.json
+
+# HuggingFace Cache
+# ----------------
+.cache/huggingface/
+transformers_cache/
+
+# Weights & Biases
+# ---------------
+wandb/
+
+# MLflow
+# ------
+mlruns/
+.mlflow/
+
+# DVC (Data Version Control)
+# -------------------------
+.dvc/
+*.dvc
+
+# PyCharm
+# -------
+.idea/
+
+# VS Code
+# -------
+.vscode/
+*.code-workspace
+
+# Spyder
+# ------
+.spyderproject
+.spyproject
+
+# Rope
+# ----
+.ropeproject
+
+# mkdocs documentation
+# -------------------
+/site
+
+# mypy
+# ----
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+# ----------------
+.pyre/
+
+# pytype static type analyzer
+# --------------------------
+.pytype/
+
+# Cython debug symbols
+# -------------------
+cython_debug/
+
+# Custom MindScope Ignores
+# -----------------------
+
+# Survey Data Exports
+survey_responses_*.csv
+raw_survey_data.xlsx
+
+# Text Data Collections
+collected_reddit_posts.json
+mental_health_texts.csv
+reddit_scraping_logs.txt
+
+# Model Checkpoints During Training
+checkpoints/
+model_states/
+training_checkpoints/
+
+# Experimental Results
+experiments/
+ablation_studies/
+hyperparameter_search/
+
+# Performance Logs
+training_logs/
+evaluation_results/
+benchmark_results/
+
+# User Uploaded Data (in Streamlit apps)
+uploaded_files/
+user_data/
+
+# Deployed App Secrets
+streamlit_secrets.toml
+deployment_config.yaml
+
+# Local Development Files
+local_test_data.csv
+debug_output.txt
+temp_analysis.py
+
+# Keep Important Files (use ! to unignore)
+# ----------------------------------------
+!requirements.txt
+!README.md
+!.gitignore
+!LICENSE
+!setup.py
+
+# Keep Essential Config Templates
+!config/config_template.yaml
+!config/example_config.json
+
+# Keep Sample Data (small files only)
+!data/sample/
+!data/examples/
+
+# Keep Model Architecture Files (but not weights)
+!version1_survey/models/__init__.py
+!version2_text/models/__init__.py
+
+# Keep Empty Directories with .gitkeep
+!**/.gitkeep

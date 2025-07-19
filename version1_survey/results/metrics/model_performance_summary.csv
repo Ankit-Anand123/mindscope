@@ -1,0 +1,2 @@
+Model,F1_Score,ROC_AUC,Accuracy,Precision_Low_Risk,Recall_Low_Risk,Precision_High_Risk,Recall_High_Risk
+SVM,0.725,0.765,0.71,0.8,0.62,0.65,0.82
