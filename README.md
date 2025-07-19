@@ -412,15 +412,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 📞 Contact
-
-**Project Maintainer**: [Your Name]
-- 📧 Email: your.email@domain.com
-- 💼 LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
-- 🐙 GitHub: [github.com/yourusername](https://github.com/yourusername)
-
----
-
 ## ⚠️ Disclaimer
 
 **Important**: MindScope is designed for educational and research purposes only. It should not be used as a substitute for professional mental health diagnosis, treatment, or advice. If you or someone you know is experiencing mental health concerns, please seek help from qualified healthcare providers.
